@@ -1,0 +1,418 @@
+/*----------------GENERAL --------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    background-color: #272829;
+    color: #BBBBBB;
+    font-family: "Oswald", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 2.6rem;
+}
+
+p {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2rem;
+    line-height: 1.5em;
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+footer {
+    width: 100%;
+    /*height: 70px;*/
+    position: fixed;
+    bottom: 0;
+}
+
+main {
+    width: 100%;
+}
+
+a,
+li {
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 2rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/*----------------HEADER --------------------*/
+/*----------------PAGE 1 --------------------*/
+.smallLogoHeader img {
+    margin: 10px;
+    width: 80px;
+    height: auto;
+}
+.about h2{
+    padding-bottom: 50px;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    font-size: 13rem;
+}
+
+/* BOUTON */
+.button {
+    border: solid 3px;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    color: #BBBBBB;
+}
+
+/* PICTOS */
+.picto {
+    width: 24px;
+    height: 24px;
+    background-image: url("./ASSETS/sprite-pictos.png");
+    margin-left: 10px;
+}
+
+.pictoMail {
+    background-position: 0px 0;
+}
+
+.pictoInstagram {
+    background-position: -24px 0;
+}
+
+.pictoLinkedIn {
+    background-position: -48px 0;
+}
+
+.pictoTwitter {
+    background-position: -72px 0;
+}
+
+.pictoGithub {
+    background-position: -96px 0;
+}
+
+/*----------------IndexHome --------------------*/
+/*------Body IndexHome ----*/
+
+/*----------------PAGE 2 --------------------*/
+/*------Body Page2 ----*/
+
+.about {
+    padding: 130px;
+}
+
+.buttonProject {
+    border: solid 3px;
+    align-items: center;
+    padding: 15px;
+    background-color: transparent;
+    color: #BBBBBB;
+}
+
+.ctaProject {
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+/*------Footer Page2 ----*/
+.socialMedia {
+    gap: 10px;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.picto {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("./ASSETS/sprite-pictos.png");
+    background-repeat: no-repeat;
+    margin-right: 8px;
+}
+
+.pitco-mail {
+    background-position: 0 0;
+}
+
+.picto-instagram {
+    background-position: -24px 0;
+}
+
+.picto-linkedin {
+    background-position: -48px 0;
+}
+
+.picto-twitter {
+    background-position: -72px 0;
+}
+
+.picto-github {
+    background-position: -96px 0;
+}
+
+/* images responsive*/
+/****a rajouter ****/
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+/*----------------PAGE 3 --------------------*/
+/*------main page3 ----*/
+.containerDiapohero {
+    height:calc(100vh - 140px );
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 13rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+}
+
+.snip1585 {
+    background-color: rgb(41, 46, 57);
+    color: #fff;
+    display: inline-block;
+    font-size: 24px;
+    margin: 10px;
+    max-width: 75px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+.swiper-slide:hover .snip1585 {
+    max-width: 500px;
+}
+
+.snip1585 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.45s ease;
+    transition: all 0.45s ease;
+}
+
+.snip1585:before,
+.snip1585:after {
+    background-color: rgba(46, 52, 64, 0.5);
+    border-top: 50px solid rgba(46, 52, 64, 0.5);
+    border-bottom: 50px solid rgba(46, 52, 64, 0.5);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.3s ease;
+    z-index: 1;
+    opacity: 0;
+}
+
+.snip1585:before {
+    -webkit-transform: scaleY(2);
+    transform: scaleY(2);
+}
+
+.snip1585:after {
+    -webkit-transform: scaleY(2);
+    transform: scaleY(2);
+}
+
+.snip1585 img {
+    vertical-align: top;
+    object-fit: cover;
+    object-position: center;
+    backface-visibility: hidden;
+}
+
+.snip1585 figcaption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.1em;
+    opacity: 0;
+    z-index: 2;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+.snip1585 h3 {
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.snip1585 h3 span {
+    display: block;
+    font-weight: 700;
+}
+
+.snip1585 a {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.swiper-slide:hover .snip1585>img,
+.snip1585.hover>img {
+    opacity: 0.7;
+}
+
+.swiper-slide:hover .snip1585:before,
+.snip1585.hover:before,
+.swiper-slide:hover .snip1585:after,
+.snip1585.hover:after {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 1;
+}
+
+.swiper-slide:hover .snip1585 figcaption,
+.snip1585.hover figcaption {
+    opacity: 1;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+/*------swiper page 3 ----*/
+.swiper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 90px;
+    height: 100%;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: width 1s ease;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    border-radius: 0%;
+    height: 50px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    background: #272829;
+    border: solid #BBBBBB;
+    color: #BBBBBB;
+    width: 5%;
+    font-size: 2rem;
+}
+
+/*------ page 4 scroller ----*/
+.burger {
+    width: 100%;
+    height: 100vh;
+    gap: 20px;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-image: url(./ASSETS/photo-dun-burger-fond-jaune.jpg);
+}
+.burger h3{
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 10rem; 
+    color: violet; 
+}
+
+.burger p{
+    width: 80%;
+    font-size: 1.8rem;
+    color: rgb(46, 4, 46);
+    margin: 20px;
+}
+.infos{
+    width: 100%;
+}
+
+.role{
+    margin-top: -20px;
+    font-size: 5rem;
+}
+.client{
+    width: 80%;
+    margin-top: -40px;
+    font-size: 2rem;
+}
+.outils{
+    margin-top: -40px;
+}
+.bouton{
+    border: solid 1px;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    background-color: transparent;
+    color:  rgb(46, 4, 46);  
+}
+
+
+
+

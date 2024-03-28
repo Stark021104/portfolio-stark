@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "bundle": "^2.1.0",
+    "swiper": "^11.0.7"
+  },
+  "name": "portfolio-baptista-stark",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

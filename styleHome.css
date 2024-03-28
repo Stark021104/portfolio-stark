@@ -127,14 +127,12 @@ li {
 
 .buttonProject {
     border: solid 3px;
-    align-items: center;
     padding: 15px;
     background-color: transparent;
     color: #BBBBBB;
 }
 
 .ctaProject {
-    width: 20%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -146,7 +144,9 @@ li {
     justify-content: flex-end;
     margin-right: 10px;
 }
-
+.about h2{
+    text-align:center ;
+}
 .picto {
     width: 24px;
     height: 24px;
@@ -336,6 +336,7 @@ li {
     transition: width 1s ease;
 }
 
+
 .swiper-slide img {
     display: block;
     width: 100%;
@@ -416,3 +417,77 @@ li {
 
 
 
+/*------ RESPONSIVE ----*/
+/*------ index ----*/
+@media all and (max-width: 1700px){
+    .container{
+        height: calc(100vh - 540px); /* nul*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 10rem;
+    }
+}
+@media all and (max-width: 900px){
+    .container{
+        height: calc(100vh - 540px); /* nul*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 6rem;
+    }
+}
+@media all and (max-width: 600px){
+    .smallLogoHeader img{
+        width: 50px;
+    }
+    .container{
+        height: calc(100vh - 540px); /* nul*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 3rem;
+    }
+    .button{
+        border: solid 1px;
+        padding: 10px;
+    }
+}
+
+/*------ page 2 ----*/
+@media all and (max-width: 800px){
+    .about {
+        padding: 130px 60px;
+    }
+}
+/*------ page 3 ----*/
+@media all and (max-width: 1700px){
+    .containerDiapohero {
+        width: 80%;
+    }
+    @media all and (max-width: 700px){
+        .snip1585 {
+            max-width: 50%;
+        }
+        .swiper-slide {
+            width: 50%;
+        }
+    }
+}
+/*------ page 4 ----*/
+@media all and (max-width: 1250px){
+    .burger h3{
+        font-size: 6rem; 
+    }
+}
+@media all and (max-width: 800px){
+    .burger h3{
+        font-size: 3rem; 
+    }
+    .burger p{
+        font-size: 1.4rem;
+    }
+}
+@media all and (max-width: 600px){
+
+}

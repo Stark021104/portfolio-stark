@@ -67,9 +67,11 @@ li {
     width: 80px;
     height: auto;
 }
-.about h2{
+
+.about h2 {
     padding-bottom: 50px;
 }
+
 .container {
     height: 100%;
     width: 100%;
@@ -124,16 +126,20 @@ li {
 .about {
     padding: 130px;
 }
-.mailPage2{
+
+.mailPage2 {
     color: rgb(51, 252, 252);
 }
-.mailPage2 img{
+
+.mailPage2 img {
     color: rgb(51, 252, 252);
 }
-.project{
+
+.project {
     width: 100%;
     justify-content: center;
 }
+
 .buttonProject {
     width: 100%;
     border: solid 3px;
@@ -141,7 +147,7 @@ li {
     background-color: transparent;
     color: #BBBBBB;
     margin: 20px;
-    
+
 }
 
 .ctaProject {
@@ -150,15 +156,17 @@ li {
     text-align: center;
 }
 
-.about h2{
-    text-align:center ;
+.about h2 {
+    text-align: center;
 }
+
 /* footer social media page 2*/
 .socialMedia {
     gap: 10px;
     justify-content: flex-end;
     margin-right: 10px;
 }
+
 .picto {
     width: 24px;
     height: 24px;
@@ -198,7 +206,7 @@ li {
 /*----------------PAGE 3 --------------------*/
 /*------main page3 ----*/
 .containerDiapohero {
-    height:calc(100vh - 140px );
+    height: calc(100vh - 140px);
     width: 100%;
     justify-content: center;
     text-align: center;
@@ -382,48 +390,53 @@ li {
     height: 100vh;
     gap: 20px;
     background-size: cover;
-    background-position:center;
+    background-position: center;
     background-repeat: no-repeat;
     background-image: url(./ASSETS/photo-dun-burger-fond-jaune.jpg);
 }
-.burger h3{
+
+.burger h3 {
     width: 100%;
     height: 100%;
     margin-top: -10px;
     text-align: center;
-    font-size: 10rem; 
-    color: violet; 
+    font-size: 10rem;
+    color: violet;
 }
 
-.burger p{
+.burger p {
     width: 80%;
     font-size: 1.8rem;
     color: rgb(46, 4, 46);
     margin: 20px;
 }
-.infos{
+
+.infos {
     width: 100%;
 }
 
-.role{
+.role {
     margin-top: -20px;
     font-size: 5rem;
 }
-.client{
+
+.client {
     width: 80%;
     margin-top: -40px;
     font-size: 2rem;
 }
-.outils{
+
+.outils {
     margin-top: -40px;
 }
-.bouton{
+
+.bouton {
     border: solid 1px;
     align-items: center;
     padding: 10px;
     margin: 20px;
     background-color: transparent;
-    color:  rgb(46, 4, 46);  
+    color: rgb(46, 4, 46);
 }
 
 
@@ -431,75 +444,118 @@ li {
 
 /*------ RESPONSIVE ----*/
 /*------ index ----*/
-@media all and (max-width: 1700px){
-    .container{
-        height: calc(100vh - 540px); /* nul*/
+@media all and (max-width: 1700px) {
+    .container {
+        height: calc(100vh - 540px);
+        /* nul*/
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         font-size: 10rem;
     }
 }
-@media all and (max-width: 900px){
-    .container{
-        height: calc(100vh - 540px); /* nul*/
+
+@media all and (max-width: 900px) {
+    .container {
+        height: calc(100vh - 540px);
+        /* nul*/
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         font-size: 6rem;
     }
 }
-@media all and (max-width: 600px){
-    .smallLogoHeader img{
+
+@media all and (max-width: 600px) {
+    .smallLogoHeader img {
         width: 50px;
     }
-    .container{
-        height: calc(100vh - 540px); /* nul*/
+
+    .container {
+        height: calc(100vh - 540px);
+        /* nul*/
         font-size: 2.5rem;
         display: flex;
         padding-top: 40px;
         gap: 100px;
     }
-    .button{
+
+    .button {
         border: solid 1px;
         padding: 10px;
     }
 }
 
 /*------ page 2 ----*/
-@media all and (max-width: 800px){
+@media all and (max-width: 800px) {
+    .project {
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
     .about {
-        padding: 130px 60px;
+        padding: 50px;
+    }
+    .about p{
+        font-size: 1.2rem;
+    }
+    .about h2{
+        font-size: 1.8rem;
+    }
+    .mailPage2 {
+      font-size: 1.2rem;
+    }
+    .mailPage2 img {
+        width: 5%;
+    }
+    .smallLogoHeader img{
+        width: 50px;
+    }
+    .boutonRetour img{
+        width: 30px;
+    }
+    .buttonProject {
+        padding: 5px;
+        background-color: transparent;
+        color: #BBBBBB;
+        margin: 0px;
+        font-size: 1.2rem;
     }
 }
+
+
 /*------ page 3 ----*/
-@media all and (max-width: 1700px){
+@media all and (max-width: 1700px) {
     .containerDiapohero {
         width: 80%;
     }
-    @media all and (max-width: 700px){
+
+    @media all and (max-width: 700px) {
         .snip1585 {
             max-width: 50%;
         }
+
         .swiper-slide {
             width: 50%;
         }
     }
 }
+
 /*------ page 4 ----*/
-@media all and (max-width: 1250px){
-    .burger h3{
-        font-size: 6rem; 
+@media all and (max-width: 1250px) {
+    .burger h3 {
+        font-size: 6rem;
     }
 }
-@media all and (max-width: 800px){
-    .burger h3{
-        font-size: 3rem; 
+
+@media all and (max-width: 800px) {
+    .burger h3 {
+        font-size: 3rem;
     }
-    .burger p{
+
+    .burger p {
         font-size: 1.4rem;
     }
 }
-@media all and (max-width: 600px){
 
-}
+@media all and (max-width: 600px) {}

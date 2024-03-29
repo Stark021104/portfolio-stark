@@ -491,18 +491,23 @@ li {
 @media all and (max-width: 800px) {
     .project {
         flex-direction: column;
-
+        align-content: center;
     }
     .about {
-        padding: 30px;
+        padding: 0px;
+        margin: 20px;
+    }
+    .about div{
+        padding: 0px;
     }
     .about p{
         font-size: 1.2rem;
     }
     .about h2{
-        width: 20%;
         font-size: 1.8rem;
         left: -20px;
+        text-align: center;
+        margin-bottom: 32px;
         padding-bottom: 0px;
     }
     .mailPage2 {
@@ -518,7 +523,7 @@ li {
         width: 30px;
     }
     .buttonProject {
-        width: 30%;
+        width: 100px;
         padding: 5px;
         display: flex;
         background-color: transparent;

@@ -124,12 +124,24 @@ li {
 .about {
     padding: 130px;
 }
-
+.mailPage2{
+    color: rgb(51, 252, 252);
+}
+.mailPage2 img{
+    color: rgb(51, 252, 252);
+}
+.project{
+    width: 100%;
+    justify-content: center;
+}
 .buttonProject {
+    width: 100%;
     border: solid 3px;
     padding: 15px;
     background-color: transparent;
     color: #BBBBBB;
+    margin: 20px;
+    
 }
 
 .ctaProject {
@@ -138,14 +150,14 @@ li {
     text-align: center;
 }
 
-/*------Footer Page2 ----*/
+.about h2{
+    text-align:center ;
+}
+/* footer social media page 2*/
 .socialMedia {
     gap: 10px;
     justify-content: flex-end;
     margin-right: 10px;
-}
-.about h2{
-    text-align:center ;
 }
 .picto {
     width: 24px;
@@ -443,10 +455,10 @@ li {
     }
     .container{
         height: calc(100vh - 540px); /* nul*/
+        font-size: 2.5rem;
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        font-size: 3rem;
+        padding-top: 40px;
+        gap: 100px;
     }
     .button{
         border: solid 1px;

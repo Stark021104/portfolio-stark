@@ -491,7 +491,7 @@ li {
     .project {
         display: flex;
         flex-direction: column;
-        gap: 80px;
+        gap: 30px;
     }
     .about {
         padding: 50px;
@@ -501,6 +501,7 @@ li {
     }
     .about h2{
         font-size: 1.8rem;
+        padding-bottom: 20px;
     }
     .mailPage2 {
       font-size: 1.2rem;

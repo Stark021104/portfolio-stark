@@ -476,8 +476,9 @@ li {
         /* nul*/
         font-size: 2.5rem;
         display: flex;
-        padding-top: 40px;
-        gap: 100px;
+        padding-top: 100px;
+        gap: 200px;
+        align-items: center;
     }
 
     .button {
@@ -489,18 +490,19 @@ li {
 /*------ page 2 ----*/
 @media all and (max-width: 800px) {
     .project {
-        display: flex;
         flex-direction: column;
-        gap: 30px;
+
     }
     .about {
-        padding: 10px;
+        padding: 30px;
     }
     .about p{
         font-size: 1.2rem;
     }
     .about h2{
+        width: 20%;
         font-size: 1.8rem;
+        left: -20px;
         padding-bottom: 20px;
     }
     .mailPage2 {
@@ -516,10 +518,12 @@ li {
         width: 30px;
     }
     .buttonProject {
-        padding: 0px;
+        width: 20%;
+        padding: 5px;
+        display: flex;
         background-color: transparent;
         color: #BBBBBB;
-        margin: 0px;
+        justify-content: center;
         font-size: 1.2rem;
     }
 }

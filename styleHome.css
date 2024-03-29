@@ -475,7 +475,8 @@ li {
         /* nul*/
         font-size: 2.8rem;
         display: flex;
-        padding-top: 200px;
+        padding-top: 180px;
+        gap: 10px;
     }
 
     .button {

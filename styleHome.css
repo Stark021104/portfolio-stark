@@ -437,10 +437,31 @@ li {
     background-color: transparent;
     color: rgb(46, 4, 46);
 }
+/*------ page 5  ----*/
 
+.titreServices{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.titreServices h1, p{
+    font-size: 1.5rem;
+}
+.containerServices{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
 
-
-
+.containerServicesLeft{
+    width: 40%;
+}
+.containerServicesRight{
+    width: 40%;
+}
+.containerServices p{
+font-size: 1.3rem;
+}
 /*------ RESPONSIVE ----*/
 /*------ index ----*/
 @media all and (max-width: 1700px) {
